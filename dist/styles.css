@@ -1,0 +1,76 @@
+.main-nav {
+    background: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+    display: grid;
+    height: 60px;
+}
+
+.main-nav ul {
+    background: rgb(136, 0, 0);
+    color: white;
+    display: grid;
+    text-align: center;
+    margin-top: -7px;
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.main-nav ul li {
+    display: grid;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    transition: 0.1s;
+}
+
+.main-nav ul li:hover {
+    transition: 0.1s;
+    background: brown;
+}
+
+.footer-grid {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(39, 39, 39);
+    display: grid;
+}
+
+.page {
+    display: grid;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.page img {
+    margin: auto;
+    width: 25%;
+}
+
+.page p {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.menu-type {
+    text-align: center;
+    font-size: 26px;
+}
+
+.item {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
